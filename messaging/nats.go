@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/nats-io/nats"
+	"github.com/nats-io/go-nats"
 )
 
 type NatsConfig struct {
