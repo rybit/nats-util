@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/nats-io/go-nats-streaming"
+	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )
 

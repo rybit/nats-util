@@ -1,11 +1,10 @@
 package: github.com/rybit/nats-util
 import:
-- package: github.com/Sirupsen/logrus
-  version: v0.11.0
 - package: github.com/nats-io/go-nats
+- package: github.com/sirupsen/logrus
 - package: github.com/rybit/nats_logrus_hook
   version: v1.0.2
 - package: github.com/spf13/cobra
 - package: github.com/spf13/viper
 - package: github.com/nats-io/go-nats-streaming
-
+- package: github.com/nats-io/go-nats

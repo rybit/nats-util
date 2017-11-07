@@ -3,8 +3,8 @@ package cmd
 import (
 	"os"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/nats-io/go-nats"
+	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 

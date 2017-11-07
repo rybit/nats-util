@@ -3,8 +3,8 @@ package messaging
 import (
 	"strings"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/nats-io/go-nats"
+	"github.com/sirupsen/logrus"
 )
 
 type NatsConfig struct {
